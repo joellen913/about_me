@@ -1,0 +1,182 @@
+<!--
+Name:Joellen Allah-Mensah
+Date:11/1/21
+-->
+<!DOCTYPE html>
+<html>
+	
+  <head>
+    <title> Portfolio </title>
+    <link rel="icon" href="favicon.ico" type="ja.png">
+    <style type="text/css">
+     body{background-image:url(backwall.png);background-size:cover;}
+     #mySidenav a {
+         margin-top:10%;
+         position: absolute; 
+         left: -50px;
+	 transition: 0.3s; 
+         padding: 15px;
+   	 width: 100px;
+  	 text-decoration: none; 
+   	 font-size: 20px;
+         color: brown; 
+    	border-radius: 0 5px 5px 0; }
+
+.zoom-in-out-box {
+  animation: zoom-in-zoom-out 1s ease infinite;
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
+  }
+  70% {
+    transform: scale(1.5, 1.5);
+  }
+  140% {
+    transform: scale(1, 1);
+  }
+}
+
+  #mySidenav a:hover {left: 0;}
+  #instagram {margin-left:4%;top: 30px;background-size:30%;background-repeat:no-repeat;}
+  #linkedin {margin-left:4%;top: 90px;background-size:30%;background-repeat:no-repeat;}
+  #facebook {margin-left:4%;top: 150px;background-size:30%;background-repeat:no-repeat;}
+  #twitter {margin-left:4%;top: 210px; background-size:30%;background-repeat:no-repeat;}
+  .nav {color: white;}
+  li{float:right;}
+  ul {
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+     background-color: rgba(0,0,0,0);
+}
+
+  li a {
+    font-family: tahoma;
+    font-size; 90%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 14px;
+    text-decoration: none;}
+
+li a:hover {
+  background-image:linear-gradient(white, grey);
+.active {
+  background-color: rgba(0,0,0,0);}
+.cent{margin-right:40%;}
+}
+
+
+.meter{color:white; text-transform:uppercase;}
+
+.text{border: 2px 10px solid blue;}
+ 
+ .zooming {
+  transition: transform .2s; 
+  margin: 0 auto;
+}
+
+.zooming:hover {
+  transform: scale(1.5); 
+}
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+
+
+.active {
+  background-color: rgba(0,0,0,0);
+}
+
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.zoom {
+  padding: 50px;
+  background-color: green;
+  transition: transform .2s; 
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(1.5); 
+}
+
+    </style>
+
+
+ <div>
+   <marquee behavior="scroll" direction="left">
+       <a href="starter.html"><small style="color:gray; margin-top:-0.4%">Click to see my very first webpage!</small></a>
+      </br></br>
+      </marquee>
+  <ul>
+     <li style="float:right; background-color: rgba(0,0,0,0)"><a class="active"
+      href="proj2.html"><h3 style="text-align: right; font-size: 14px; margin: 4px 2px;  text-shadow: 2px 2px 4px #000000">PORTFOLIO</h3></a></li>
+     <li style="float:right; background-color: rgba(0,0,0,0)"><a class="active"
+      href="proj3.html"><h3 style="text-align: right; font-size: 14px; margin: 4px 2px;  text-shadow: 2px 2px 4px #000000">ABOUT ME</h3></a></li>
+     <li style="float:right; background-color: rgba(0,0,0,0)"><a class="active"
+      href="index.html"><h3 style="text-align: right; font-size: 14px; margin: 4px 2px;  text-shadow: 2px 2px 4px #000000">HOME</h3></a></li>
+    </ul>
+    <img style="margin-left:4.2%; margin-top:-6%; width:18.5%" src="po.png" alt="image of joellens website header" >
+</div>
+
+</head>
+
+  <body>
+    <div id="mySidenav" class="sidenav">
+      <a href="https://www.instagram.com/joellen__/" id="instagram"><img src="f1.png" height="60" width="60"></a>
+      <a href="https://www.linkedin.com/in/joellen-allah-mensah-3508291b8/"
+        id="linkedin"><img src="f2.png" height="60" width="60"></a>
+      <a href="https://www.facebook.com/joellen.allahmensah" id="facebook"><img src="f3.png" height="60" width="60"></a>
+      <a href="https://twitter.com/joellen__" id="twitter"><img src="f4.png" height="60" width="60"></a>
+  </div>
+
+<div>
+   <img style="float:left; margin-left:17%; margin-top:7.9%" src="t1.png" alt="image of resume" width="150">
+   <img style="float:left; margin-left:9%; margin-top:7.9%" src="t3.png" alt="image of art site" width="220">
+   <img style="float:left; margin-left:4%; margin-top:7.9%" src="t2.png" alt="image of internship" width="220">
+</div>
+<div>
+   <a download="JoellenAM_GraphicDesignResume.pdf" href=Users/joell/Downloads/correct%20resume/JoellenAM_GraphicDesignResume.pdf"><img style="float:left; margin-left:14%; margin-top:2%" src="p1.png" width="200" alt="image of resume icon"></a>
+   <a href="art.html"><img style="float:left; margin-left:7%; margin-top:2%" src="p2.png" width="200" alt="image of art board"></a>
+   <a href="https://www.atpco.net/"><img style="float:left; margin-left:7%; margin-top:2%" src="p3.png" width="200" alt="image of name tag icon"></a>
+</div>
+<div>
+   <div><img style="float:left;margin-left:84%; margin-top:-28%" src="awardw.png" width="150" alt="image of bows"></div>
+   <div><img style="float:left; margin-left:84%; margin-top:-22%" src="bowss.png" width="40" alt="image of the word awards"></div>
+  <div> 
+  <ul style="color:white; font-family:georgia;margin-top:-22%; float:left;text-shadow:2px 2px black; margin-left:-3%">
+    <ol>President's Education </br>Award of Academic </br>Excellence</ol></br>
+    <ol>BWI Marshall Airport </br>Cert. of Appreciation </br>for Digital Art</ol></br></br>
+    <ol>JA Economics for </br>Success Cert. of </br>Achievement </ol></br></br>
+    <ol>Certificate of Merit</br> Service (500+ hours) </ol></br>
+ <ul>
+ </div>
+</div>
+    
+
+<footer style="margin-top:3.2%; color:white; float:left; margin-left:1%">
+  <small><em> &copy; Copyright 2021 Joellen Allah-Mensah </em></small>
+</footer>
+ </body>
+</html>
